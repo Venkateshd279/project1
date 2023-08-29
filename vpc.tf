@@ -5,5 +5,7 @@ resource "aws_vpc" "my-vpc001" {
     tags = {
 
         Name = "my-mumbai-vpc"
+
+        Environment = "dev"
     }
 }
